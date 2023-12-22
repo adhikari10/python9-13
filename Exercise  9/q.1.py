@@ -7,6 +7,7 @@ class Car:
 
 
 new_car = Car("ABC-123", 142)
+
 print("Registration Number: ", new_car.registration_number)
 print("Maximum Speed: ", new_car.maximum_speed, "km/h")
 print("Current Speed: ", new_car.current_speed, "km/h")

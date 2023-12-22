@@ -9,6 +9,7 @@ class Car:
         new_speed = self.current_speed + change
         self.current_speed = max(0, min(new_speed, self.maximum_speed))
 
+
 new_car = Car("ABC-123", 142)
 
 new_car.accelerate(30)

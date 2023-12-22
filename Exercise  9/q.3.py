@@ -10,7 +10,8 @@ class Car:
         self.current_speed = max(0, min(new_speed, self.maximum_speed))
 
     def drive(self, hours):
-        self.travelled_distance += self.current_speed*hours
+        self.travelled_distance += self.current_speed * hours
+
 
 new_car = Car("ABC-123", 142)
 
